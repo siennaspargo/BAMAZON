@@ -27,4 +27,36 @@ CREATE TABLE products (
   stock_quantity INTEGER(50) NOT NULL
 );
 
+-- mock data 10 products
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("OLEHENRIKSEN Nurture Me Moisturizing Crème", "Sephora", 40.00, 100);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("OOLEHENRIKSEN Counter Balance™ Oil Control Hydrator", "Sephora", 34.00, 100);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("OLEHENRIKSEN Pure Truth™ Youth Activating Oil", "Sephora", 45.00, 100);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("OOLEHENRIKSEN Uplifting Transformation™ Eye Crème", "Sephora", 42.00, 100);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("URBAN DECAY Naked2 Palette", "Sephora", 54.00, 100);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("URBAN DECAY Eyeshadow Primer Potion - Original", "Sephora", 24.00, 100);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("URBAN DECAY De-Slick Oil-Control Makeup Setting Spray", "Sephora", 32.00, 100);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("BITE BEAUTY Sweet Treats Agave Lip Care Set", "Sephora", 16.00, 100);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("DRYBAR Triple Sec 3-in-1", "Sephora", 26.00, 100);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("DRYBAR Detox Dry Conditioner", "Sephora", 23.00, 100);
+
 
