@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Challenge #1: Customer View (Minimum Requirement) Create a MySQL Database called bamazon.",
   "main": "bamazonCustomer.js",
+  "dependencies": {
+    "inquirer": "^6.2.1",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +15,6 @@
     "type": "git",
     "url": "git+https://github.com/siennaspargo/Bamazon.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
